@@ -7,7 +7,7 @@
 						<i :class="item.icon"></i>
 						<span>{{item.title}}</span>
 					</template>
-					<el-menu-item v-for="(subItem,i) in item.subItem" :index="subItem.index">{{subItem.title}}</el-menu-item>
+					<el-menu-item v-for="(subItem,i) in item.subItem" :key="subItem.index" :index="subItem.index">{{subItem.title}}</el-menu-item>
 				</el-submenu>
 				<el-menu-item v-else :index="item.index">
 					<i :class="item.icon"></i>

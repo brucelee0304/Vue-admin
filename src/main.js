@@ -10,7 +10,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 //引用全局公共样式
 import '@/assets/css/common.css'
-
+//import host from './host.js'
+//alert(host)
 //使用ElementUI插件
 Vue.use(ElementUI);
 Vue.config.productionTip = false
