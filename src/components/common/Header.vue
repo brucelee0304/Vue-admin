@@ -18,7 +18,6 @@
         name: 'linxin'
       }
     },
-
     computed: {
       username() {
         let username = localStorage.getItem('ms_username');
